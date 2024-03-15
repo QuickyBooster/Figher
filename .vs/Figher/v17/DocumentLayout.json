@@ -1,0 +1,64 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\unityProject\\Figher\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FCEFD16F-A47E-754E-23CD-79A9840B96B1}|Assembly-CSharp.csproj|f:\\unityproject\\figher\\assets\\scripts\\baseplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCEFD16F-A47E-754E-23CD-79A9840B96B1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\baseplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCEFD16F-A47E-754E-23CD-79A9840B96B1}|Assembly-CSharp.csproj|f:\\unityproject\\figher\\assets\\scripts\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCEFD16F-A47E-754E-23CD-79A9840B96B1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 62,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "F:\\unityProject\\Figher\\Assets\\Scripts\\Weapon.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Weapon.cs",
+              "ToolTip": "F:\\unityProject\\Figher\\Assets\\Scripts\\Weapon.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Weapon.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T16:27:12.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BasePlayer.cs",
+              "DocumentMoniker": "F:\\unityProject\\Figher\\Assets\\Scripts\\BasePlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BasePlayer.cs",
+              "ToolTip": "F:\\unityProject\\Figher\\Assets\\Scripts\\BasePlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BasePlayer.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAADwv1cAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T15:36:07.951Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 39,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
