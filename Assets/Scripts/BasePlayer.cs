@@ -21,7 +21,7 @@ public class BasePlayer : MonoBehaviour
 	}
 	void Start()
 	{
-		rotateSpeed = 90;
+		rotateSpeed = 300;
 		moveSpeed = 4;
 		lineOfSight = 2;
 		hitPoint = 100;
@@ -36,23 +36,19 @@ public class BasePlayer : MonoBehaviour
 
 	void Moving(float deltaTime)
 	{
-		if (Input.GetAxisRaw("Horizontal") == 0)
-		{
-			if (Input.GetAxisRaw("Vertical") == 0)
-			{ } else if (Input.GetAxisRaw("Vertical") > 0)
+		if (Input.GetAxisRaw("Horizontal") == 0) {
+			if (Input.GetAxisRaw("Vertical") > 0)
 				OnMoving(Math.PI/2, Time.deltaTime);
 			else if (Input.GetAxisRaw("Vertical") <0)
 				OnMoving(-Math.PI/2, Time.deltaTime);
-		} else if (Input.GetAxisRaw("Horizontal") > 0)
-		{
+		} else if (Input.GetAxisRaw("Horizontal") > 0) {
 			if (Input.GetAxisRaw("Vertical") == 0)
 				OnMoving(0, Time.deltaTime);
 			else if (Input.GetAxisRaw("Vertical") > 0)
 				OnMoving(Math.PI/4, Time.deltaTime);
 			else if (Input.GetAxisRaw("Vertical") <0)
 				OnMoving(-Math.PI/4, Time.deltaTime);
-		} else if (Input.GetAxisRaw("Horizontal") < 0)
-		{
+		} else if (Input.GetAxisRaw("Horizontal") < 0) {
 			if (Input.GetAxisRaw("Vertical") == 0)
 				OnMoving(Math.PI, Time.deltaTime);
 			else if (Input.GetAxisRaw("Vertical") > 0)
@@ -61,31 +57,42 @@ public class BasePlayer : MonoBehaviour
 				OnMoving(-3*Math.PI/4, Time.deltaTime);
 		}
 	}
-	void OnMoving(double alpha, float deltaTime)
+	public void OnMoving(double alpha, float deltaTime)
 	{
 		Vector2 start = transform.position;
-		Vector2 end = new Vector2(transform.position.x + (float)Math.Cos(alpha)* moveSpeed,
+		Vector2 end = new Vector2(
+			transform.position.x + (float)Math.Cos(alpha)* moveSpeed,
 			transform.position.y +(float)Math.Sin(alpha)* moveSpeed);
 
 		transform.position = Vector2.MoveTowards(start, Vector2.Lerp(start, end, deltaTime), moveSpeed);
 	}
 	void Rotating()
 	{
-		if (Input.GetKeyDown(KeyCode.J))
-			OnRotate(transform.localEulerAngles.z-1);
-		else if (Input.GetKeyDown(KeyCode.K))
-			OnRotate(transform.localEulerAngles.z+1);
+		if (Input.GetKey(KeyCode.J))
+			OnRotate(transform.eulerAngles.z-1);
+		else if (Input.GetKey(KeyCode.K))
+			OnRotate(transform.eulerAngles.z+1);
 	}
-	void OnRotate(float beta)
+	public void OnRotate(float beta)
 	{
-		float delta = beta - transform.localEulerAngles.z;
-		if (transform.localEulerAngles.z != beta)
-			if (delta > 0)
-				transform.Rotate(0, 0, rotateSpeed);
-			else
-				transform.Rotate(0, 0, -rotateSpeed);
 
-	}
+        // Normalize the target angle
+        float normalizedAngle = NormalizeAngle(beta);
+
+        // Calculate the difference between the target angle and the current angle
+        float deltaAngle = Mathf.DeltaAngle(transform.eulerAngles.z, normalizedAngle);
+
+        // If the difference is significant, rotate towards the target angle
+        if (Mathf.Abs(deltaAngle) > 0.01f)
+        {
+            // Determine the direction of rotation
+            float rotationDirection = Mathf.Sign(deltaAngle);
+
+            // Rotate the player smoothly
+            transform.Rotate(0, 0, rotateSpeed * Time.deltaTime * rotationDirection);
+        }
+
+    }
 	void OnBeingHit(int damage, int critChance)
 	{
 		int damageDeal = damage;
@@ -101,4 +108,16 @@ public class BasePlayer : MonoBehaviour
 		}
 	}
 
+    float NormalizeAngle(float angle)
+    {
+        while (angle < 0)
+        {
+            angle += 360;
+        }
+        while (angle >= 360)
+        {
+            angle -= 360;
+        }
+        return angle;
+    }
 }
