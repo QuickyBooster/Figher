@@ -1,25 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\unityProject\\StudentVSZombies\\",
+  "WorkspaceRootPath": "D:\\UITSe\\HK6\\SE405\\StudentVSZombies\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|F:\\unityProject\\StudentVSZombies\\assets\\scripts\\base\\baseplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\base\\baseplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|D:\\UITSe\\HK6\\SE405\\StudentVSZombies\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|f:\\unityproject\\studentvszombies\\assets\\scripts\\base\\fieldofview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\base\\fieldofview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|f:\\unityproject\\studentvszombies\\assets\\scripts\\base\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\base\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|F:\\unityProject\\StudentVSZombies\\assets\\scripts\\base\\rotationjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\base\\rotationjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|F:\\unityProject\\StudentVSZombies\\assets\\scripts\\base\\movementjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|D:\\UITSe\\HK6\\SE405\\StudentVSZombies\\assets\\scripts\\base\\movementjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\base\\movementjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,75 +18,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FieldOfView.cs",
-              "DocumentMoniker": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\Base\\FieldOfView.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Base\\FieldOfView.cs",
-              "ToolTip": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\Base\\FieldOfView.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Base\\FieldOfView.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAgAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T02:40:49.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Weapon.cs",
-              "DocumentMoniker": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\Base\\Weapon.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Base\\Weapon.cs",
-              "ToolTip": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\Base\\Weapon.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Base\\Weapon.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T02:32:10.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RotationJoystick.cs",
-              "DocumentMoniker": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\Base\\RotationJoystick.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Base\\RotationJoystick.cs",
-              "ToolTip": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\Base\\RotationJoystick.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Base\\RotationJoystick.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T02:31:27.376Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MovementJoystick.cs",
-              "DocumentMoniker": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\Base\\MovementJoystick.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Base\\MovementJoystick.cs",
-              "ToolTip": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\Base\\MovementJoystick.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Base\\MovementJoystick.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T02:31:01.692Z"
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BasePlayer.cs",
-              "DocumentMoniker": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\Base\\BasePlayer.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Base\\BasePlayer.cs",
-              "ToolTip": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\Base\\BasePlayer.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Base\\BasePlayer.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAuwD8AAAAvAAAA",
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "D:\\UITSe\\HK6\\SE405\\StudentVSZombies\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "D:\\UITSe\\HK6\\SE405\\StudentVSZombies\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwA8AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T02:29:38.088Z",
+              "WhenOpened": "2024-03-23T03:55:35.709Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovementJoystick.cs",
+              "DocumentMoniker": "D:\\UITSe\\HK6\\SE405\\StudentVSZombies\\Assets\\Scripts\\Base\\MovementJoystick.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Base\\MovementJoystick.cs",
+              "ToolTip": "D:\\UITSe\\HK6\\SE405\\StudentVSZombies\\Assets\\Scripts\\Base\\MovementJoystick.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Base\\MovementJoystick.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T03:55:20.174Z"
             }
           ]
         },
         {
-          "DockedWidth": 1258,
+          "DockedWidth": 200,
           "SelectedChildIndex": -1,
           "Children": [
             {
