@@ -1,0 +1,54 @@
+{
+    "name": "movement",
+    "maps": [
+        {
+            "name": "playerInput",
+            "id": "ec09ae01-5397-433d-aeb4-963a12f225cf",
+            "actions": [
+                {
+                    "name": "movementInput",
+                    "type": "Value",
+                    "id": "4b57625c-9d81-488b-89b8-a0a73287bc9a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "rotationInput",
+                    "type": "Value",
+                    "id": "a5b7fd03-e6ce-4f0b-bdf6-15ab64d59694",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d1c9e56e-e607-42b4-86db-2424f6fd9755",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movementInput",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2276d027-8701-43b7-ad86-a30e6cbe5e34",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "rotationInput",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
