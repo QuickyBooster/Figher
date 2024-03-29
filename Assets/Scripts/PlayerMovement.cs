@@ -24,9 +24,6 @@ class PlayerMoverment : MonoBehaviour
 
 	private void Update()
 	{
-		Debug.Log("29");
-		Debug.Log(moveVector.x);
-		Debug.Log(player.ToString());
 		if (moveVector != Vector2.zero && player != null)
 		{
 			Debug.Log(Mathf.Atan2(moveVector.y, moveVector.x));
