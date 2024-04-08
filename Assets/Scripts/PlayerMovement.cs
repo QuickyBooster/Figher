@@ -33,7 +33,7 @@ class PlayerMoverment : MonoBehaviour
 		if (rotateVector != Vector2.zero && player != null)
 		{
 			// Calculate the angle of rotation
-			float angle = Mathf.Atan2(rotateVector.y, rotateVector.x) * Mathf.Rad2Deg - 90f;
+			float angle = Mathf.Atan2(rotateVector.y, -rotateVector.x) * Mathf.Rad2Deg - 90f;
 			// Pass the angle to the OnRotate method
 			player.OnRotate(angle);
 		}

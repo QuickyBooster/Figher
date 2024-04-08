@@ -19,6 +19,8 @@ public class FieldOfView : MonoBehaviour
 	public int edgeResolveIterations;
 	public float edgeDstThreshold;
 
+	public float maskCutawayDst = .15f;
+
 	public MeshFilter viewMeshFilter;
 	Mesh viewMesh;
 
@@ -107,7 +109,7 @@ public class FieldOfView : MonoBehaviour
 		vertices[0] = Vector3.zero;
 		for (int i = 0; i < vertexCount - 1; i++)
 		{
-			vertices[i + 1] = transform.InverseTransformPoint(viewPoints[i]);
+			vertices[i + 1] = transform.InverseTransformPoint(viewPoints[i]) + Vector3.forward * maskCutawayDst;
 
 			if (i < vertexCount - 2)
 			{
