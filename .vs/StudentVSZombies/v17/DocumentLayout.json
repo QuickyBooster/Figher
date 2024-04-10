@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\UITSe\\HK6\\SE405\\StudentVSZombies\\",
+  "WorkspaceRootPath": "F:\\unityProject\\StudentVSZombies\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|D:\\UITSe\\HK6\\SE405\\StudentVSZombies\\assets\\scripts\\base\\fieldofview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|f:\\unityproject\\studentvszombies\\assets\\scripts\\base\\fieldofview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\base\\fieldofview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|D:\\UITSe\\HK6\\SE405\\StudentVSZombies\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|f:\\unityproject\\studentvszombies\\assets\\scripts\\base\\baseenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\base\\baseenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|F:\\unityProject\\StudentVSZombies\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|d:\\uitse\\hk6\\se405\\studentvszombies\\assets\\shaders\\stencil object.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "AbsoluteMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|F:\\unityProject\\StudentVSZombies\\assets\\shaders\\stencil object.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\stencil object.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|D:\\UITSe\\HK6\\SE405\\StudentVSZombies\\assets\\shaders\\stencil mask.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\stencil mask.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|D:\\UITSe\\HK6\\SE405\\StudentVSZombies\\assets\\scripts\\base\\fieldofvieweditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|F:\\unityProject\\StudentVSZombies\\assets\\scripts\\base\\fieldofvieweditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\base\\fieldofvieweditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|D:\\UITSe\\HK6\\SE405\\StudentVSZombies\\assets\\scripts\\base\\baseplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|F:\\unityProject\\StudentVSZombies\\assets\\scripts\\base\\baseplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\base\\baseplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,45 +34,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Stencil Object.shader",
-              "DocumentMoniker": "D:\\UITSe\\HK6\\SE405\\StudentVSZombies\\Assets\\Shaders\\Stencil Object.shader",
-              "RelativeDocumentMoniker": "Assets\\Shaders\\Stencil Object.shader",
-              "ToolTip": "D:\\UITSe\\HK6\\SE405\\StudentVSZombies\\Assets\\Shaders\\Stencil Object.shader",
-              "RelativeToolTip": "Assets\\Shaders\\Stencil Object.shader",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2024-04-08T14:10:10.397Z",
+              "DocumentIndex": 1,
+              "Title": "BaseEnemy.cs",
+              "DocumentMoniker": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\Base\\BaseEnemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Base\\BaseEnemy.cs",
+              "ToolTip": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\Base\\BaseEnemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Base\\BaseEnemy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T16:55:16.243Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Stencil Mask.shader",
-              "DocumentMoniker": "D:\\UITSe\\HK6\\SE405\\StudentVSZombies\\Assets\\Shaders\\Stencil Mask.shader",
-              "RelativeDocumentMoniker": "Assets\\Shaders\\Stencil Mask.shader",
-              "ToolTip": "D:\\UITSe\\HK6\\SE405\\StudentVSZombies\\Assets\\Shaders\\Stencil Mask.shader",
-              "RelativeToolTip": "Assets\\Shaders\\Stencil Mask.shader",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Title": "Stencil Object.shader",
+              "DocumentMoniker": "F:\\unityProject\\StudentVSZombies\\Assets\\Shaders\\Stencil Object.shader",
+              "RelativeDocumentMoniker": "Assets\\Shaders\\Stencil Object.shader",
+              "ToolTip": "F:\\unityProject\\StudentVSZombies\\Assets\\Shaders\\Stencil Object.shader",
+              "RelativeToolTip": "Assets\\Shaders\\Stencil Object.shader",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2024-04-08T14:09:53.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T14:10:10.397Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "FieldOfViewEditor.cs",
-              "DocumentMoniker": "D:\\UITSe\\HK6\\SE405\\StudentVSZombies\\Assets\\Scripts\\Base\\FieldOfViewEditor.cs",
+              "DocumentMoniker": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\Base\\FieldOfViewEditor.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Base\\FieldOfViewEditor.cs",
-              "ToolTip": "D:\\UITSe\\HK6\\SE405\\StudentVSZombies\\Assets\\Scripts\\Base\\FieldOfViewEditor.cs",
+              "ToolTip": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\Base\\FieldOfViewEditor.cs",
               "RelativeToolTip": "Assets\\Scripts\\Base\\FieldOfViewEditor.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -82,11 +77,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "FieldOfView.cs",
-              "DocumentMoniker": "D:\\UITSe\\HK6\\SE405\\StudentVSZombies\\Assets\\Scripts\\Base\\FieldOfView.cs",
+              "DocumentMoniker": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\Base\\FieldOfView.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Base\\FieldOfView.cs",
-              "ToolTip": "D:\\UITSe\\HK6\\SE405\\StudentVSZombies\\Assets\\Scripts\\Base\\FieldOfView.cs",
+              "ToolTip": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\Base\\FieldOfView.cs",
               "RelativeToolTip": "Assets\\Scripts\\Base\\FieldOfView.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAjwBUAAAAiAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAwDIAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-29T17:26:58.577Z",
               "EditorCaption": ""
@@ -95,9 +90,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "BasePlayer.cs",
-              "DocumentMoniker": "D:\\UITSe\\HK6\\SE405\\StudentVSZombies\\Assets\\Scripts\\Base\\BasePlayer.cs",
+              "DocumentMoniker": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\Base\\BasePlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Base\\BasePlayer.cs",
-              "ToolTip": "D:\\UITSe\\HK6\\SE405\\StudentVSZombies\\Assets\\Scripts\\Base\\BasePlayer.cs",
+              "ToolTip": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\Base\\BasePlayer.cs",
               "RelativeToolTip": "Assets\\Scripts\\Base\\BasePlayer.cs",
               "ViewState": "AQIAABoAAAAAAAAAAAAwwGEAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -105,16 +100,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "D:\\UITSe\\HK6\\SE405\\StudentVSZombies\\Assets\\Scripts\\PlayerMovement.cs",
+              "DocumentMoniker": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
-              "ToolTip": "D:\\UITSe\\HK6\\SE405\\StudentVSZombies\\Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAQwCMAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T03:55:35.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-23T03:55:35.709Z"
             }
           ]
         },
@@ -125,6 +119,16 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1524,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

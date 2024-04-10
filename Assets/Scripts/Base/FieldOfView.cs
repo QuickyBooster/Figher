@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
 public class FieldOfView : MonoBehaviour
 {
@@ -46,6 +47,9 @@ public class FieldOfView : MonoBehaviour
 	void LateUpdate()
 	{
 		DrawFieldOfView();
+		// Normal player doesn't need this, but if this is an monster
+		// you should check if player is in my visual range, then go after him
+		//StartCoroutine("FindTargetsWithDelay", .5f);
 	}
 
 	void FindVisibleTargets()
@@ -66,7 +70,8 @@ public class FieldOfView : MonoBehaviour
 				}
 			}
 		}
-	}
+        Debug.Log($"i found you {visibleTargets.Count}");
+    }
 
 	void DrawFieldOfView()
 	{
