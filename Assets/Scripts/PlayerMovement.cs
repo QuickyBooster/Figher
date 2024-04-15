@@ -22,11 +22,19 @@ class PlayerMoverment : MonoBehaviour
 		rotateVector = context.ReadValue<Vector2>().normalized;
 	}
 
+	public void OnAttackClicked()
+	{
+		if (player != null)
+		{
+			player.AttackNearbyObjects();
+		}
+	}
+
 	private void Update()
 	{
 		if (moveVector != Vector2.zero && player != null)
 		{
-			Debug.Log(Mathf.Atan2(moveVector.y, moveVector.x));
+			//Debug.Log(Mathf.Atan2(moveVector.y, moveVector.x));
 			player.OnMoving(Mathf.Atan2(moveVector.y, moveVector.x), Time.deltaTime);
 		}
 
