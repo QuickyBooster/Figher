@@ -75,6 +75,7 @@ public class FieldOfView : MonoBehaviour
 	}
 	public Vector3 FindVisibleTarget()
 	{
+		Vector3 result= new Vector3(100, 100, 100);
 		visibleTargets.Clear();
 		Collider[] targetsInViewRadius = Physics.OverlapSphere(transform.position, viewRadius, targetMask);
 
@@ -89,10 +90,10 @@ public class FieldOfView : MonoBehaviour
 				{
 					return target.position;
 				}
-				return Vector3.down;
+				return result;
 			}
 		}
-		return Vector3.down;
+		return result;
 	}
 
 	void DrawFieldOfView()

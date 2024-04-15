@@ -1,3 +1,4 @@
+using Assets.Scripts;
 using System;
 using UnityEngine;
 
@@ -6,24 +7,28 @@ public class BasePlayer : MonoBehaviour
 
 	float rotateSpeed { get; set; }
 	float moveSpeed { get; set; }
-	float lineOfSight { get; set; }
-	int hitPoint { get; set; }
+    [SerializeField]
+	public CharacterStats myStats { get; set; }
+    [SerializeField]
+	CharacterCombat myCombat { get; set; }
+    float lineOfSight { get; set; }
 	Weapon weapon { get; set; }
-	public BasePlayer(float rotate, float move, float sight, int hp)
+    [Range(0, 10)]
+    public float attackRange;
+    public BasePlayer(float rotate, float move, float sight, int hp)
 	{
 		rotateSpeed = rotate;
 		moveSpeed = move;
 		lineOfSight = sight;
-		hitPoint = hp;
-	}
+    }
 	void Start()
 	{
 		rotateSpeed = 300;
 		moveSpeed = 4;
 		lineOfSight = 2;
-		hitPoint = 100;
-
-	}
+        if (myStats == null) myStats = GetComponent<CharacterStats>();
+        if (myCombat == null) myCombat = GetComponent<CharacterCombat>();
+    }
 
 	void Update()
 	{
@@ -97,10 +102,38 @@ public class BasePlayer : MonoBehaviour
 	void OnBeingHit(int damage)
 	{
 		int damageDeal = damage;
-		hitPoint -= damageDeal;
 	}
 
-	float NormalizeAngle(float angle)
+    public void AttackNearbyObjects()
+    {
+            Debug.Log("Player ATTACK");
+		if (myCombat.AttackCooldown > 0)
+        {
+            return; // Not ready to attack yet
+        }
+
+        GameObject[] targets = GameObject.FindGameObjectsWithTag(GameTags.Enemy);
+
+        foreach (GameObject target in targets)
+        {
+			if (target != null)
+			{
+				float distance = Vector3.Distance(transform.position, target.transform.position);
+				if (distance <= attackRange)
+				{
+                    BaseEnemy targetStats = target.GetComponent<BaseEnemy>();
+					Debug.Log("HELOOOO " + targetStats);
+					if (targetStats != null)
+					{
+						Debug.Log("HELOOOO khjkhkhjk" + target);
+						myCombat.Attack(targetStats.MyStats);
+                    }
+				}
+			}
+        }
+    }
+
+    float NormalizeAngle(float angle)
 	{
 		while (angle < 0)
 		{
