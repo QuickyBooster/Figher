@@ -4,31 +4,28 @@ using UnityEngine;
 
 public class BasePlayer : MonoBehaviour
 {
-
-	float rotateSpeed { get; set; }
-	float moveSpeed { get; set; }
-    [SerializeField]
+	[SerializeField]
+	float rotateSpeed;
+	[SerializeField]
+	float moveSpeed;
+	[SerializeField]
 	public CharacterStats myStats { get; set; }
-    [SerializeField]
+	[SerializeField]
 	CharacterCombat myCombat { get; set; }
-    float lineOfSight { get; set; }
+	float lineOfSight { get; set; }
 	Weapon weapon { get; set; }
-    [Range(0, 10)]
-    public float attackRange;
-    public BasePlayer(float rotate, float move, float sight, int hp)
+	[Range(0, 10)]
+	public float attackRange;
+	public BasePlayer( float sight, int hp)
 	{
-		rotateSpeed = rotate;
-		moveSpeed = move;
 		lineOfSight = sight;
-    }
+	}
 	void Start()
 	{
-		rotateSpeed = 300;
-		moveSpeed = 4;
 		lineOfSight = 2;
-        if (myStats == null) myStats = GetComponent<CharacterStats>();
-        if (myCombat == null) myCombat = GetComponent<CharacterCombat>();
-    }
+		if (myStats == null) myStats = GetComponent<CharacterStats>();
+		if (myCombat == null) myCombat = GetComponent<CharacterCombat>();
+	}
 
 	void Update()
 	{
@@ -104,36 +101,36 @@ public class BasePlayer : MonoBehaviour
 		int damageDeal = damage;
 	}
 
-    public void AttackNearbyObjects()
-    {
-            Debug.Log("Player ATTACK");
+	public void AttackNearbyObjects()
+	{
+		Debug.Log("Player ATTACK");
 		if (myCombat.AttackCooldown > 0)
-        {
-            return; // Not ready to attack yet
-        }
+		{
+			return; // Not ready to attack yet
+		}
 
-        GameObject[] targets = GameObject.FindGameObjectsWithTag(GameTags.Enemy);
+		GameObject[] targets = GameObject.FindGameObjectsWithTag(GameTags.Enemy);
 
-        foreach (GameObject target in targets)
-        {
+		foreach (GameObject target in targets)
+		{
 			if (target != null)
 			{
 				float distance = Vector3.Distance(transform.position, target.transform.position);
 				if (distance <= attackRange)
 				{
-                    BaseEnemy targetStats = target.GetComponent<BaseEnemy>();
+					BaseEnemy targetStats = target.GetComponent<BaseEnemy>();
 					Debug.Log("HELOOOO " + targetStats);
 					if (targetStats != null)
 					{
 						Debug.Log("HELOOOO khjkhkhjk" + target);
 						myCombat.Attack(targetStats.MyStats);
-                    }
+					}
 				}
 			}
-        }
-    }
+		}
+	}
 
-    float NormalizeAngle(float angle)
+	float NormalizeAngle(float angle)
 	{
 		while (angle < 0)
 		{
