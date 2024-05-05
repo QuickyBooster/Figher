@@ -18,10 +18,14 @@ public class BaseEnemy : MonoBehaviour
 	[SerializeField]
 	CharacterCombat myCombat;
 
+	[SerializeField]
+	float moveSpeed;
+
 	Vector3 playerPosition = new Vector3(100, 100, 100);
 	Vector3 nonPosition = new Vector3(100, 100, 100);
 	[Range(0, 360)]
 	public float rangeVision;
+	float defaultVision;
 	[Range(0, 10)]
 	public float rangeAttack;
 	bool playerInVision = false, playerInRangeAttack = false, lostVision = true;
@@ -29,21 +33,28 @@ public class BaseEnemy : MonoBehaviour
 	bool walkPointset, alreadyAttack;
 	public float walkPointRange, timeBetweenAttack;
 	Vector3 walkPoint;
+	Animator animator;
+
 
 
 	private void Awake()
 	{
 		agent = GetComponent<NavMeshAgent>();
-		agent.angularSpeed = rangeVision;
+		agent.angularSpeed = rangeVision/2;
+		fov.viewAngle = rangeVision;
+		agent.speed = moveSpeed;
+		animator = GetComponent<Animator>();
 	}
 
 	private void Start()
 	{
+		animator.fireEvents = false;
 		playerManager = PlayerManager.instance;
 		StartCoroutine("FindTargetWithDelay", .5f);
 		if (myStats == null) myStats = GetComponent<CharacterStats>();
 		if (myCombat == null) myCombat = GetComponent<CharacterCombat>();
-		closeLimit = 1f;
+		closeLimit = 0.5f;
+		defaultVision = rangeVision;
 	}
 	private void Update()
 	{
@@ -65,7 +76,6 @@ public class BaseEnemy : MonoBehaviour
 			Debug.Log("finding target");
 			yield return new WaitForSeconds(delay);
 			if (!playerInVision) playerInRangeAttack = false;
-			Debug.Log("invision: "+playerInVision + "-- inlost "+ lostVision + ", in range attack: "+playerInRangeAttack);
 			Vector3 a = fov.FindVisibleTarget();
 			if (a != new Vector3(100, 100, 100))
 			{
@@ -83,7 +93,7 @@ public class BaseEnemy : MonoBehaviour
 
 	void Patrolling()
 	{
-		Debug.Log($"patrollingg {walkPointset}");
+		animator.Play("Walk");
 		if (!walkPointset) SearchWalkPoint();
 		else
 		{
@@ -91,7 +101,7 @@ public class BaseEnemy : MonoBehaviour
 		}
 		Vector3 distanceToWalkPoint = transform.position - walkPoint;
 
-		if (distanceToWalkPoint.magnitude < closeLimit)
+		if (distanceToWalkPoint.magnitude < closeLimit*2.5f)
 		{
 			Debug.Log("walkPointSet = False");
 			walkPointset = false;
@@ -133,11 +143,26 @@ public class BaseEnemy : MonoBehaviour
 				Debug.Log("Walk point is outside the player's field of view.");
 	}
 
+	bool attackLeft = true;
 	void AttackingPlayer()
 	{
+		rangeVision = 360;
+		fov.viewAngle = rangeVision;
 		Debug.Log("attack");
-		agent.SetDestination(playerPosition);
+		if (Vector3.Magnitude(transform.position -  playerPosition) > closeLimit)
+			agent.SetDestination(playerPosition);
 		transform.LookAt(playerPosition);
+		if (attackLeft)
+		{
+
+			animator.Play("AttackLeft");
+			attackLeft = false;
+		} else
+		{
+
+			attackLeft = true;
+			animator.Play("AttackRight");
+		}
 		if (!alreadyAttack)
 		{
 			// attack player here
@@ -157,6 +182,10 @@ public class BaseEnemy : MonoBehaviour
 
 	void ChasePlayer()
 	{
+		rangeVision = defaultVision;
+		fov.viewAngle = rangeVision;
+		agent.speed = moveSpeed*1.3f;
+		animator.Play("Chase");
 		Debug.Log("chasing player");
 		agent.SetDestination(playerPosition);
 		walkPointset = false;

@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "F:\\unityProject\\StudentVSZombies\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|f:\\unityproject\\studentvszombies\\assets\\scripts\\base\\baseenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|F:\\unityProject\\StudentVSZombies\\assets\\scripts\\base\\baseenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\base\\baseenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,7 +24,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Base\\BaseEnemy.cs",
               "ToolTip": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\Base\\BaseEnemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Base\\BaseEnemy.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAowFYAAAAAAAAA",
+              "ViewState": "AQIAAKkAAAAAAAAAAAAAwLsAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T04:49:57.457Z",
               "EditorCaption": ""
