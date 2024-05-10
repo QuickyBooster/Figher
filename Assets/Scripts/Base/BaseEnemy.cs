@@ -152,21 +152,21 @@ public class BaseEnemy : MonoBehaviour
 		if (Vector3.Magnitude(transform.position -  playerPosition) > closeLimit)
 			agent.SetDestination(playerPosition);
 		transform.LookAt(playerPosition);
-		if (attackLeft)
-		{
-
-			animator.Play("AttackLeft");
-			attackLeft = false;
-		} else
-		{
-
-			attackLeft = true;
-			animator.Play("AttackRight");
-		}
 		if (!alreadyAttack)
 		{
 			// attack player here
 			myCombat.Attack(playerManager.player.myStats);
+			if (attackLeft)
+			{
+
+				animator.Play("AttackLeft");
+				attackLeft = false;
+			} else
+			{
+
+				animator.Play("AttackRight");
+				attackLeft = true;
+			}
 			alreadyAttack = true;
 			Invoke(nameof(ResetAttack), timeBetweenAttack);
 		}

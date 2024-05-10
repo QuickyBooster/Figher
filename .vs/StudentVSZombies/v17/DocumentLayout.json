@@ -3,7 +3,23 @@
   "WorkspaceRootPath": "F:\\unityProject\\StudentVSZombies\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|F:\\unityProject\\StudentVSZombies\\assets\\scripts\\base\\baseenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|f:\\unityproject\\studentvszombies\\assets\\shaders\\stencil object.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\stencil object.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|F:\\unityProject\\StudentVSZombies\\assets\\scripts\\smoothcamerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\smoothcamerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|f:\\unityproject\\studentvszombies\\assets\\scripts\\base\\fieldofvieweditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\base\\fieldofvieweditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|f:\\unityproject\\studentvszombies\\assets\\scripts\\charactercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charactercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|f:\\unityproject\\studentvszombies\\assets\\scripts\\base\\baseenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CD8A684-1F35-30E1-8F8C-CAB11A2E9545}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\base\\baseenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,12 +35,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Stencil Object.shader",
+              "DocumentMoniker": "F:\\unityProject\\StudentVSZombies\\Assets\\Shaders\\Stencil Object.shader",
+              "RelativeDocumentMoniker": "Assets\\Shaders\\Stencil Object.shader",
+              "ToolTip": "F:\\unityProject\\StudentVSZombies\\Assets\\Shaders\\Stencil Object.shader",
+              "RelativeToolTip": "Assets\\Shaders\\Stencil Object.shader",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2024-05-08T03:04:06.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FieldOfViewEditor.cs",
+              "DocumentMoniker": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\Base\\FieldOfViewEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Base\\FieldOfViewEditor.cs",
+              "ToolTip": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\Base\\FieldOfViewEditor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Base\\FieldOfViewEditor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T02:20:22.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CharacterCombat.cs",
+              "DocumentMoniker": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\CharacterCombat.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterCombat.cs",
+              "ToolTip": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\CharacterCombat.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CharacterCombat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T02:06:15.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SmoothCameraFollow.cs",
+              "DocumentMoniker": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\SmoothCameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SmoothCameraFollow.cs",
+              "ToolTip": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\SmoothCameraFollow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SmoothCameraFollow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T18:11:58.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "BaseEnemy.cs",
               "DocumentMoniker": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\Base\\BaseEnemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Base\\BaseEnemy.cs",
               "ToolTip": "F:\\unityProject\\StudentVSZombies\\Assets\\Scripts\\Base\\BaseEnemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Base\\BaseEnemy.cs",
-              "ViewState": "AQIAAKkAAAAAAAAAAAAAwLsAAAAZAAAA",
+              "ViewState": "AQIAAI8AAAAAAAAAAIBJwKMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T04:49:57.457Z",
               "EditorCaption": ""
